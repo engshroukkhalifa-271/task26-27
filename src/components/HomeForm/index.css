@@ -1,0 +1,93 @@
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+form {
+    width: 100%;
+    max-width: 450;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+    text-align: left;
+    gap: 20px;
+}
+
+
+.form-header h2 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+
+.form-header p {
+    color: #9699ab;
+    font-size: 16px;
+    line-height: 1.6;
+    max-width: 350px;
+}
+
+.inputs {
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+.inputs .name,
+.inputs .email,
+.inputs .phone {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.inputs label {
+    font-size: 14px;
+    font-weight: bold;
+
+}
+
+.inputs input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #D6D9E6;
+    border-radius: 8px;
+    outline: none;
+    color: #02295a;
+}
+
+.inputs input::placeholder {
+    color: #9699AA;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.inputs input:focus {
+    border-color: #473df4;
+}
+
+.container button {
+    display: block;
+    margin: auto 0 0 auto;
+    padding: 14px 24px;
+    background-color: #02295a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.container button:hover {
+    background-color: #164a8a;
+}
